@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Author Jerome Blanchard <jayblanc@gmail.com>
+Date 15 October 2009
+Inspired by Christophe Bouthier (christophe.bouthier@loria.fr)
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<artifactId>factory-parent</artifactId>
+		<groupId>org.qualipso</groupId>
+		<version>0.5-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.qualipso</groupId>
+	<artifactId>factory-ui</artifactId>
+	<name>factory-ui</name>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+		<dependency>
+			<groupId>org.qualipso</groupId>
+			<artifactId>factory-ui-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>org.qualipso</groupId>
+			<artifactId>factory-ui-git</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>jar</type>
+		</dependency>
+	</dependencies>
+</project>
+
